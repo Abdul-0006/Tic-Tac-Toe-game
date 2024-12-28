@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  color: #0fa4af;
+}
+
+#gameboard {
+  width: 540px;
+  height: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  border: #141619 20px solid;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.tile {
+  width: 180px;
+  height: 180px;
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+.horizontal-line {
+  border-bottom: 5px black solid;
+}
+
+.vertical-line {
+  border-right: 5px black solid;
+}
+.winner {
+  background-color: lightslategray;
+  color: red;
+}
